@@ -1,0 +1,7 @@
+class Solution(object):
+    def singleNonDuplicate(self, nums):
+        n = 0
+        for i in nums:
+            n = n ^ i
+        return n
+        
